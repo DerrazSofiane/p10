@@ -1,0 +1,1004 @@
+{
+  "intents": [
+    {
+      "name": "Calendar.AcceptEventEntry",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "AcceptEventEntry"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.ChangeCalendarEntry",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "ChangeCalendarEntry"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.CheckAvailability",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "CheckAvailability"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.Confirm",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "Confirm"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.ConnectToMeeting",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "ConnectToMeeting"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.ContactMeetingAttendees",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "ContactMeetingAttendees"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.CreateCalendarEntry",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "CreateCalendarEntry"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.DeleteCalendarEntry",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "DeleteCalendarEntry"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindCalendarDetail",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindCalendarDetail"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindCalendarEntry",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindCalendarEntry"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindCalendarWhen",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindCalendarWhen"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindCalendarWhere",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindCalendarWhere"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindCalendarWho",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindCalendarWho"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindDuration",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindDuration"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.FindMeetingRoom",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "FindMeetingRoom"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.GoBack",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "GoBack"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.Reject",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "Reject"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.ShowNext",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "ShowNext"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.ShowPrevious",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "ShowPrevious"
+      },
+      "features": []
+    },
+    {
+      "name": "Calendar.TimeRemaining",
+      "inherits": {
+        "domain_name": "Calendar",
+        "model_name": "TimeRemaining"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.AddContact",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AddContact"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.AddFlag",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AddFlag"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.AddMore",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AddMore"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Answer",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Answer"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.AssignContactNickname",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AssignContactNickname"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.CallBack",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "CallBack"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.CallVoiceMail",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "CallVoiceMail"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Cancel",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Cancel"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.CheckIMStatus",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "CheckIMStatus"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.CheckMessages",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "CheckMessages"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Confirm",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Confirm"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Dial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Dial"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.EndCall",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "EndCall"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.FindContact",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "FindContact"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.FindSpeedDial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "FindSpeedDial"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.FinishTask",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "FinishTask"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Forward",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Forward"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.GetForwardingsStatus",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "GetForwardingsStatus"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.GetNotifications",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "GetNotifications"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.GoBack",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "GoBack"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Ignore",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Ignore"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.IgnoreWithMessage",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "IgnoreWithMessage"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.PressKey",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "PressKey"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.QueryLastText",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "QueryLastText"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.ReadAloud",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ReadAloud"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Redial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Redial"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Reject",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Reject"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.Reply",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Reply"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.SearchMessages",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SearchMessages"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.SendEmail",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SendEmail"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.SendMessage",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SendMessage"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.SetSpeedDial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SetSpeedDial"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.ShowNext",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ShowNext"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.ShowPrevious",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ShowPrevious"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.TurnForwardingOff",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnForwardingOff"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.TurnForwardingOn",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnForwardingOn"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.TurnSpeakerOff",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnSpeakerOff"
+      },
+      "features": []
+    },
+    {
+      "name": "Communication.TurnSpeakerOn",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnSpeakerOn"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.AddFlag",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "AddFlag"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.AddMore",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "AddMore"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.CheckMessages",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "CheckMessages"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.Confirm",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "Confirm"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.Delete",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "Delete"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.Forward",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "Forward"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.QueryLastText",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "QueryLastText"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.ReadAloud",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "ReadAloud"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.Reply",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "Reply"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.SearchMessages",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "SearchMessages"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.SendEmail",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "SendEmail"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.ShowNext",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "ShowNext"
+      },
+      "features": []
+    },
+    {
+      "name": "Email.ShowPrevious",
+      "inherits": {
+        "domain_name": "Email",
+        "model_name": "ShowPrevious"
+      },
+      "features": []
+    },
+    {
+      "name": "HomeAutomation.QueryState",
+      "inherits": {
+        "domain_name": "HomeAutomation",
+        "model_name": "QueryState"
+      },
+      "features": []
+    },
+    {
+      "name": "HomeAutomation.SetDevice",
+      "inherits": {
+        "domain_name": "HomeAutomation",
+        "model_name": "SetDevice"
+      },
+      "features": []
+    },
+    {
+      "name": "HomeAutomation.TurnDown",
+      "inherits": {
+        "domain_name": "HomeAutomation",
+        "model_name": "TurnDown"
+      },
+      "features": []
+    },
+    {
+      "name": "HomeAutomation.TurnOff",
+      "inherits": {
+        "domain_name": "HomeAutomation",
+        "model_name": "TurnOff"
+      },
+      "features": []
+    },
+    {
+      "name": "HomeAutomation.TurnOn",
+      "inherits": {
+        "domain_name": "HomeAutomation",
+        "model_name": "TurnOn"
+      },
+      "features": []
+    },
+    {
+      "name": "HomeAutomation.TurnUp",
+      "inherits": {
+        "domain_name": "HomeAutomation",
+        "model_name": "TurnUp"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.AddToNote",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "AddToNote"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.ChangeTitle",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "ChangeTitle"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.Clear",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "Clear"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.Close",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "Close"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.Create",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "Create"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.Delete",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "Delete"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.Open",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "Open"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.ReadAloud",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "ReadAloud"
+      },
+      "features": []
+    },
+    {
+      "name": "Note.RemoveSentence",
+      "inherits": {
+        "domain_name": "Note",
+        "model_name": "RemoveSentence"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.AddFavoritePlace",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "AddFavoritePlace"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.FindPlace",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "FindPlace"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetAddress",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetAddress"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetDistance",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetDistance"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetHours",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetHours"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetMenu",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetMenu"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetPhoneNumber",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetPhoneNumber"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetPriceRange",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetPriceRange"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetReviews",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetReviews"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.GetStarRating",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "GetStarRating"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.MakeCall",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "MakeCall"
+      },
+      "features": []
+    },
+    {
+      "name": "Places.RatePlace",
+      "inherits": {
+        "domain_name": "Places",
+        "model_name": "RatePlace"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.ChangeReservation",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "ChangeReservation"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.Confirm",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "Confirm"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.DeleteReservation",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "DeleteReservation"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.FindReservationEntry",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "FindReservationEntry"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.FindReservationWhen",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "FindReservationWhen"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.FindReservationWhere",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "FindReservationWhere"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.Reject",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "Reject"
+      },
+      "features": []
+    },
+    {
+      "name": "RestaurantReservation.Reserve",
+      "inherits": {
+        "domain_name": "RestaurantReservation",
+        "model_name": "Reserve"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Confirm",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Confirm"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Escalate",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Escalate"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.FinishTask",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "FinishTask"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.GoBack",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "GoBack"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.ReadAloud",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "ReadAloud"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Reject",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Reject"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Repeat",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Repeat"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.SelectAny",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "SelectAny"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.SelectItem",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "SelectItem"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.SelectNone",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "SelectNone"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.ShowNext",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "ShowNext"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.ShowPrevious",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "ShowPrevious"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.StartOver",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "StartOver"
+      },
+      "features": []
+    },
+    {
+      "name": "Utilities.Stop",
+      "inherits": {
+        "domain_name": "Utilities",
+        "model_name": "Stop"
+      },
+      "features": []
+    },
+    {
+      "name": "Weather.ChangeTemperatureUnit",
+      "inherits": {
+        "domain_name": "Weather",
+        "model_name": "ChangeTemperatureUnit"
+      },
+      "features": []
+    },
+    {
+      "name": "Weather.CheckWeatherTime",
+      "inherits": {
+        "domain_name": "Weather",
+        "model_name": "CheckWeatherTime"
+      },
+      "features": []
+    },
+    {
+      "name": "Weather.CheckWeatherValue",
+      "inherits": {
+        "domain_name": "Weather",
+        "model_name": "CheckWeatherValue"
+      },
+      "features": []
+    },
+    {
+      "name": "Weather.GetWeatherAdvisory",
+      "inherits": {
+        "domain_name": "Weather",
+        "model_name": "GetWeatherAdvisory"
+      },
+      "features": []
+    },
+    {
+      "name": "Weather.QueryWeather",
+      "inherits": {
+        "domain_name": "Weather",
+        "model_name": "QueryWeather"
+      },
+      "features": []
+    }
+  ]
+}
